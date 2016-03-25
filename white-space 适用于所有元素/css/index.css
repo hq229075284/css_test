@@ -1,0 +1,5 @@
+div{height: 100px;width: 400px;border:1px #000 solid;word-break:break-all;}
+.one{white-space: pre;}
+.two{white-space: pre-line;}
+.three{white-space: pre-wrap;}
+.four{white-space: nowrap;}

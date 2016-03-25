@@ -1,0 +1,61 @@
+body{
+	height: 1500px;
+}
+.one{
+	/*overflow-y:scroll;*/
+	height: 300px;
+	box-sizing:border-box;
+	border:1px solid #000;
+	background-attachment: fixed;/*scroll*/
+	background-image: url(../image/bg.jpg);
+	background-repeat: no-repeat;
+}
+
+.two{
+	height: 300px;
+	box-sizing:border-box;
+	border:1px solid #000;
+	background-attachment: fixed;/*scroll*/
+	background-image: url(../image/bg1.jpg);
+	background-repeat: no-repeat;
+}
+.three{
+	height: 300px;
+	box-sizing:border-box;
+	border:1px solid #000;
+	background-image: url(../image/bg2.jpg);
+	background-repeat: repeat;
+	padding: 10px;
+	background-clip: content-box;
+	/*background-origin: content-box;*/
+	background-position: 0% 50%;
+}
+div{
+	width: 50%;
+	height: 100px;
+	/*padding: 20px;*/
+	box-sizing:border-box;
+	/*background-clip:content-box;*/
+	/*-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;*/
+}
+
+
+/*background 缩写顺序*/
+/*
+background-image:url(test1.jpg),url(test2.jpg),url(test3.jpg);
+background-repeat:no-repeat,no-repeat,no-repeat;
+background-attachment:scroll,scroll,scroll;
+background-position:10px 20px,10px 20px,10px 20px;
+background-size:50px 60px,70px 90px,110px 130px;
+background-origin:content-box,content-box,content-box;
+background-clip:padding-box,padding-box,padding-box;
+background-color:#aaa;
+*/
+
+/*
+background:
+url(test1.jpg) no-repeat scroll 10px 20px/50px 60px content-box padding-box,
+url(test1.jpg) no-repeat scroll 10px 20px/70px 90px content-box padding-box,
+url(test1.jpg) no-repeat scroll 10px 20px/110px 130px content-box padding-box #aaa;
+*/

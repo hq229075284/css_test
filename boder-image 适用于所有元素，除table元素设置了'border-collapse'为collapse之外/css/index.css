@@ -1,7 +1,10 @@
 div{
+	/*width: 50%;*/
 	border: 16px #000 solid;
 	border-image: url(../image/bg.jpg);
 	border-image-slice: 20 fill;
 	border-image-repeat: round;
+	border-image-width: 1;
+	border-image-outset:1; 
 	height: 100px;
 }

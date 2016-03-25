@@ -1,0 +1,12 @@
+.one{height: 100px;width: 300px;text-align: justify;border:1px solid #000;}
+/*
+通过text-align-last属性控制文本最后一行和被br打断的那一行的对齐方式，暂时仅适用于IE与firefox。除非显示的指定 <' text-align '> 第一行对齐方式（值 'start end'），否则 最后一行或被打断的行的<' text-align-last '> 将会覆盖 <' text-align '>
+*/
+.one{text-align-last:justify;-moz-text-align-last:justify;}
+
+
+/*.one:after{content: "";display:inline-block;width: 100%;overflow: hidden;height: 0px;}*/
+/*
+通过伪元素充当.one元素中的最后一行文本，display必须为复合形式，比如inline-block;width设置为100%填满最后一行，或者直接在.one元素的最下面加个内联块的div
+*/
+/*.two{display: inline-block;width: 100%;}*/
