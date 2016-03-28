@@ -1,0 +1,11 @@
+columns、column-width、column-count:
+适用于:除table外的非替换块级元素, table cells, inline-block元素
+
+column-gap、column-rule、column-rule-width、column-rule-style、column-fill:
+适用于:定义了多列的元素
+
+column-span:
+适用于:除浮动和绝对定位之外的块级元素
+
+column-break-before、column-break-after、column-break-inside:
+适用于:块级元素
