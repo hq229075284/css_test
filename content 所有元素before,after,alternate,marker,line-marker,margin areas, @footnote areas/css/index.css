@@ -1,0 +1,7 @@
+ul,li{list-style: none;padding: 0;margin:0;} 
+body>ul>li{counter-increment: count1;}
+body>ul>li:before{content: counter(count1)"."; color:red; }
+body>ul>li>ul>li{counter-increment: count2; }
+body>ul>li>ul>li:before{content: counter(count1)"."counter(count2); color:red; }
+body>ul>li>ul>li:after{content: counters(count1,"123"); color:red; }
+/*body>ul>li>ul>li:after{content: counter(count1);counter-reset: count1 20; color:red;}*/
