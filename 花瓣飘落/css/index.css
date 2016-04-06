@@ -1,0 +1,84 @@
+.content {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+
+/*.snowFlake{}*/
+
+.snow {
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    z-index: 999;
+    top: -41px;
+    -webkit-animation: mysnow 20s ease .1s both;
+    -moz-animation: mysnow 20s ease .1s both ;
+    animation: mysnow 20s ease .1s both ;
+}
+
+@-webkit-keyframes mysnow {
+    0% {
+        opacity: 0;
+    }
+    10%{opacity: 1;}
+    22%{opacity: 1;}
+    30%{opacity: 0;}
+    100% {
+    	opacity: 0;
+        -webkit-transform: rotate(960deg);
+        -ms-transform: rotate(960deg);
+        -o-transform: rotate(960deg);
+        transform: rotate(960deg);
+    }
+}
+
+@-o-keyframes mysnow {
+    0% {
+        opacity: 0;
+    }
+    10%{opacity: 1;}
+    22%{opacity: 1;}
+    30%{opacity: 0;}
+    100% {
+    	opacity: 0;
+        -webkit-transform: rotate(960deg);
+        -ms-transform: rotate(960deg);
+        -o-transform: rotate(960deg);
+        transform: rotate(960deg);
+    }
+}
+
+@-moz-keyframes mysnow {
+    0% {
+        opacity: 0;
+    }
+    10%{opacity: 1;}
+    22%{opacity: 1;}
+    30%{opacity: 0;}
+    100% {
+    	opacity: 0;
+        -webkit-transform: rotate(960deg);
+        -ms-transform: rotate(960deg);
+        -o-transform: rotate(960deg);
+        transform: rotate(960deg);
+    }
+}
+
+@keyframes mysnow {
+    0% {
+        opacity: 0;
+    }
+    10%{opacity: 1;}
+    22%{opacity: 1;}
+    30%{opacity: 0;}
+    100% {
+    	opacity: 0;
+        -webkit-transform: rotate(960deg);
+        -ms-transform: rotate(960deg);
+        -o-transform: rotate(960deg);
+        transform: rotate(960deg);
+    }
+}
